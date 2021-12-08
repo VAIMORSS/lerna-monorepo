@@ -1,0 +1,23 @@
+{
+  "name": "@poc/api",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "scss"
+  ],
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.8.7",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "react-redux": "^7.2.6",
+    "redux-logger": "^3.0.6"
+  }
+}
